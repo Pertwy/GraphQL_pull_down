@@ -1,0 +1,12 @@
+.create-customer-button{
+    border: 2px black solid;
+    border-radius: 5px;
+    padding: 2px;
+}
+.create-customer-button:hover{
+    background-color:rgb(175, 175, 175);
+    cursor: pointer;
+}
+.create-customer-button-text{
+    margin: auto;
+}

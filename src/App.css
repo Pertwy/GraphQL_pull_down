@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap');
+
+.app {
+  font-family: "Roboto", sans-serif;
+}
+
+.app-logo {
+  height: 3rem;
+}
+
+body{
+  /* padding-left: calc(100%-300px); */
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+
+.app-header {
+  /* background-color: white; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #333333;
+}
+
+h1 {
+  font-family: "Playfair Display", serif;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+.user-title-and-select-container{
+  display: flex;
+  justify-content: space-between;
+  min-width: 300px;
+}
+.user-selector{
+  max-height: 35px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.header-gradient {
+  position: absolute;
+  left: 10%;
+  top:5%;
+  z-index: -10;
+  width: 50%;
+  opacity: .5;
+  -webkit-filter: blur(6vw);
+  filter: blur(6vw);
+}
+
+.above{
+  z-index: 10;
+}
+
+.logo{
+  margin-top: 40px;
+}
+.acre-font{
+  font-family: 'Space Grotesk',sans-serif;
+}
